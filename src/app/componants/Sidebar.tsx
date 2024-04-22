@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin,AiFillMail,AiFillMobile } from "react-icon
 import { GoLocation } from "react-icons/go";
 import { GrDownload } from "react-icons/gr";
 import { useTheme } from "next-themes";
-
+import Image from "next/image"
 
 export default function Sidebar(){
 
@@ -14,7 +14,7 @@ export default function Sidebar(){
     return (
         <div className="col-span-12 bg-white dark:bg-black lg:col-span-4 rounded-2xl p-4 text-center ">
         <div>
-          <img src="images/profile.jpeg" alt="profile" className="w-32 h-32 mx-auto rounded-full"></img>
+          <Image src="images/profile.jpeg" alt="profile" className="w-32 h-32 mx-auto rounded-full"></Image>
           <h3 className="my-4 text-3xl font-medium tracking-wider dark:text-white">
             <span className=" text-blue-500 font-serif font-bold">kavinath</span><br></br>Suventhiran
           </h3>

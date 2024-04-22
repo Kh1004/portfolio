@@ -26,7 +26,7 @@ export default function Projects() {
         <div className="grid grid-cols-12 gap-4 my-3 relative">
           {
             projects.map(project=>(
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-blue-200 dark:bg-blue-800 dark:text-white rounded">
+              <div key={project.name} className="col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-blue-200 dark:bg-blue-800 dark:text-white rounded">
                 <ProjectCard project={project} key={project.name}/>
               </div>
             ))

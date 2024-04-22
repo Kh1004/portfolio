@@ -1,8 +1,6 @@
 import { title } from "process";
 import { services } from "../../data";
 import ServiceCard from "./componants/ServiceCard";
-import { log } from "console";
-import { GetServerSidePropsContext } from "next";
 
     const Home = ()=>{
 
