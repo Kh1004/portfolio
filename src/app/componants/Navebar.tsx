@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import { FunctionComponent, useEffect, useState } from "react";
 
 const NavItem:FunctionComponent<{
@@ -18,7 +18,8 @@ const NavItem:FunctionComponent<{
 const Navbar=()=>{
     const [activeItem,setActiveItem]=useState<string>('');
 
-    const { pathname } = useRouter()
+    const router = useRouter();
+  const { pathname } = router;
 
     console.log(pathname);
     useEffect(()=>{
