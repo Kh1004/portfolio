@@ -46,27 +46,27 @@ export const services:IService[]=[
 export const languages:ISkill[]=[
     {
         name:"python",
-        level:'70%',
+        level:'90%',
     },
     {
-        name:"lava",
-        level:'60%',
+        name:"Java",
+        level:'75%',
     },
     {
         name:"javascript",
-        level:'74%'
+        level:'80%'
     },
     {
         name:"react",
-        level:'60%'
+        level:'90%'
     },
     {
         name:"next",
-        level:'50%'
+        level:'90%'
     },
     {
         name:"django",
-        level:'40%'
+        level:'90%'
     },
 ]
 

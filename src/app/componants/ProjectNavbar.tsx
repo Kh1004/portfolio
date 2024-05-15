@@ -19,10 +19,9 @@ const ProjectNavbar:FunctionComponent<{handleFilterCategory:Function,active:stri
     return (
         <div className="px-3 py-2 space-x-3 overflow-x-scroll list-none flex dark:text-white">
             <NavItem value="all" {...props} />
-            <NavItem value="react" {...props}/>
-            <NavItem value="mongo" {...props}/>
             <NavItem value="django" {...props}/>
-            <NavItem value="node" {...props}/>
+            <NavItem value="C#" {...props}/>
+            <NavItem value="PHP" {...props}/>
         </div>
     )
 }

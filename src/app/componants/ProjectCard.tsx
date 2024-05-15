@@ -11,7 +11,7 @@ const ProjectCard:FunctionComponent<{project:IProject}>=({project:{name,image_pa
 
     return (
         <div>
-            <Image src={image_path} alt={name} className="cursor-pointer" onClick={()=>setShowDetails(true)} width="300" height="150" layout="resposive"/>
+            <img src={image_path} alt={name} className="cursor-pointer" onClick={()=>setShowDetails(true)} width="300" height="150" />
             <p className="my-2 text-center"> {name} </p>
 
             {
@@ -20,7 +20,7 @@ const ProjectCard:FunctionComponent<{project:IProject}>=({project:{name,image_pa
 
             <div className="grid md:grid-cols-2 absolute top-0 left-0 z-10 h-auto w-full gap-x-12 text-black bg-green-100 dark:text-white dark:bg-gray-900">
                 <div>
-                    <Image src={image_path} alt={name}/>
+                    <img src={image_path} alt={name}/>
                     <div className="flex justify-center my-4 space-x-3">
                     <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-500"><AiFillGithub/><span>GitHub</span></a>
                     <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-500"><AiFillProject/><span>Project</span></a>

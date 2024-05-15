@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { usePathname } from 'next/navigation';
 import { FunctionComponent, useEffect, useState } from "react";
 
 const NavItem:FunctionComponent<{
@@ -16,12 +17,12 @@ const NavItem:FunctionComponent<{
 }
 
 const Navbar=()=>{
+
     const [activeItem,setActiveItem]=useState<string>('');
 
-    const router = useRouter();
-  const { pathname } = router;
+    // const { pathname } = useRouter();
+    const pathname = usePathname();
 
-    console.log(pathname);
     useEffect(()=>{
         if(pathname==='/') setActiveItem('About')
         if(pathname==='/projects') setActiveItem('Projects')
