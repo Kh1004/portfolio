@@ -18,7 +18,7 @@ Institute -VAVUNIYA</h5>
           <div>
             <h5 className="my-3 text-2xl font-bold"> <u>Experience</u></h5>
             <div>
-              <h5 className="my-2 text-xl font-bold">Software Developer - Trainee</h5>
+              <h5 className="my-2 text-xl font-bold">Web Developer - Trainee</h5>
               <p className="font-semibold">Woocurs PVT | archer Tek (Subsidiary)</p>
               <p>2023 September to 2024 February</p>
             </div>
