@@ -18,7 +18,7 @@ export default function Sidebar(){
           <h3 className="my-4 text-3xl font-medium tracking-wider dark:text-white">
             <span className=" text-blue-500 font-serif font-bold">kavinath</span><br></br>Suventhiran
           </h3>
-          <p className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center font-bold dark:bg-gray-900 dark:text-white">Software Developer</p>
+          <p className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center font-bold dark:bg-gray-900 dark:text-white">Web Developer</p>
           {/* <a className="flex item-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full  dark:bg-gray-900 dark:text-white" href=""><GrDownload className="w-4 h-6"/> download resume</a> */}
           <div className="flex justify-around w-9/12 my-5 text-blue-500 md:w-full">
           <a href="https://github.com/Kh1004"><AiFillGithub className="w-8 h-8 cursor-pointer"/>  </a>
