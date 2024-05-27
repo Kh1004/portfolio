@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className="bg-blue-900">
 
       <ThemeProvider attribute="class">
-      <div className="grid grid-cols-12 gap-6 px-48 my-14">
+      <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 my-14">
         <Sidebar/>
         <div className='col-span-12 bg-blue-100 dark:bg-black lg:col-span-8 rounded-2xl overflow-hidden'>
           <Navbar/>
