@@ -68,6 +68,10 @@ export const languages:ISkill[]=[
         name:"django",
         level:'90%'
     },
+    {
+        name:"laravel",
+        level:'90%'
+    },
 ]
 
 export const tools:ISkill[]=[
