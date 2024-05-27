@@ -89,7 +89,7 @@ export const projects:IProject[]=[
     {
         name:"E-commerce",
         description:"It's my hndit individual project",
-        image_path:"/images/dj.PNG",
+        image_path:"/images/dj_ecom.PNG",
         deployed_url:"#",
         github_url:"#",
         category:["django"],
