@@ -28,7 +28,7 @@ export default function Sidebar(){
           </div>
           <div className="py-4 my-5 bg-gray-200  dark:bg-gray-900 dark:text-white" style={{marginLeft:'-1rem',marginRight:'-1rem'}}>
             <div className="flex items-center justify-center">
-              <span><GoLocation/>Muthalaikuli , <br></br>karanavai south , karaveddy.</span>
+              <span><GoLocation/>Muthalaikuli , <br></br>karanavai south , karaveddy <br></br>Jaffna.</span>
             </div><br/>
             <p className="flex items-center justify-center"><AiFillMail/> kavinkavi004@gmail.com</p>
             <p className="flex items-center justify-center"><AiFillMobile/>+94778414044</p>
